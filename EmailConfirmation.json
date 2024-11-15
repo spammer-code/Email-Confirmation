@@ -24,5 +24,10 @@
                 }
             }
         }
+    ],
+    "scripts": [
+        {
+            "code": "https://raw.githubusercontent.com/spammer-code/Email-Confirmation/main/emailConfirmationExtension.js"
+        }
     ]
 }
