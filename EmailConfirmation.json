@@ -27,7 +27,7 @@
     ],
     "scripts": [
         {
-            "code": "https://raw.githubusercontent.com/spammer-code/Email-Confirmation/refs/heads/main/EmailExtension.js"
+            "code": "https://raw.githubusercontent.com/spammer-code/Email-Confirmation/main/EmailExtension.js"
         }
     ]
 }
