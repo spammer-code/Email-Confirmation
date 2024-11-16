@@ -1,33 +1,33 @@
 {
-"name": "Email Confirmation",
-"id": "emailConfirmation",
-"version": "1.0.0",
-"description": "Simulate email confirmation in TurboWarp",
-"iconURL": "https://example.com/icon.png",
-"blocks": [
-{
-"opcode": "sendConfirmationEmail",
-"blockType": "command",
-"text": "send confirmation email to [EMAIL] with code [CODE] from [SENDER]",
-"arguments": {
-"EMAIL": {
-"type": "string",
-"defaultValue": "example@example.com"
-},
-"CODE": {
-"type": "string",
-"defaultValue": "123456"
-},
-"SENDER": {
-"type": "string",
-"defaultValue": "no-reply@example.com"
-}
-}
-}
-],
-"scripts": [
-{
-"code": "https://raw.githubusercontent.com/spammer-code/Email-Confirmation/main/EmailExtension.js"
-}
-]
+    "name": "Email Confirmation",
+    "id": "emailConfirmation",
+    "version": "1.0.0",
+    "description": "Simulate email confirmation in TurboWarp",
+    "iconURL": "https://example.com/icon.png",
+    "blocks": [
+        {
+            "opcode": "sendConfirmationEmail",
+            "blockType": "command",
+            "text": "send confirmation email to [EMAIL] with code [CODE] from [SENDER]",
+            "arguments": {
+                "EMAIL": {
+                    "type": "string",
+                    "defaultValue": "example@example.com"
+                },
+                "CODE": {
+                    "type": "string",
+                    "defaultValue": "123456"
+                },
+                "SENDER": {
+                    "type": "string",
+                    "defaultValue": "no-reply@example.com"
+                }
+            }
+        }
+    ],
+    "scripts": [
+        {
+            "code": "https://spammer-code.github.io/Email-Confirmation/EmailExtension.js"
+        }
+    ]
 }
