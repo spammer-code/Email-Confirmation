@@ -22,7 +22,7 @@ TurboWarp.registerExtension('emailConfirmation', {
         console.log(`Sending confirmation email to: ${args.EMAIL}`);
         console.log(`Code: ${args.CODE}`);
         console.log(`Sender: ${args.SENDER}`);
-        // Simulated email-sending logic
+        // Simulate the email sending process here
       }
     }
   ]
